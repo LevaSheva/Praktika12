@@ -1,0 +1,173 @@
+body{
+    padding: 0;
+    margin: 0;  
+    background-color: #87CEEB;
+    overflow-x:hidden;
+}
+p,h1,b{
+    font-family: Times New Roman;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+.container{
+    display: flex; 
+    padding: 15px;
+    width: 98%;
+    flex-direction: column;
+}
+.menu{
+    display: flex; 
+    height: 70px;
+    background-color: black;
+    flex-wrap:wrap;
+}
+
+a {
+    text-decoration:none;
+    color:#3fbd0d;
+}
+
+.menu_block a {
+    color: white;
+}
+
+.nav{
+    display: flex;
+    height: 100%;
+    color: white;
+    margin: auto;
+    flex-grow:1;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.nav p{
+    font-size: 22pt;
+     z-index: 1;
+ }
+
+.nav a {
+    color: white;
+ }
+
+.nav:hover{
+    background-color: #E6E6E6;
+}
+
+.nav a:hover{
+    background-color: #E6E6E6;
+    color: #3fbd0d;
+}
+
+.left{
+    display: flex; 
+    margin-top: 7%;
+}
+
+.news{
+    flex-grow:1; 
+    width: 75%;
+    height: 100%;
+    margin-top:1%;
+}
+
+h1{
+    color: #8c4423;
+    margin-bottom: 0px;
+    font-size: 3rem;
+    margin-top:0px;
+    padding-left: 30px;
+}
+
+#kartinka1{
+    width: 100%;
+    margin-top: 20px;
+    height: 800px;
+    background-image:url('img/сердце.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#kartinka2{
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 1%;
+    padding-right: 1%;
+    height: 350px;
+    background-image:url('img/суп.jpg');
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+#news2{
+    margin-top: 20%;
+}
+
+#kartinka3{
+    width: 90%;
+    margin-left: 4%;
+    margin-top: 30px;
+    height: 450px;
+    background-image:url('img/витамины.jpg');
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+
+
+.right{
+    flex-grow:1;
+    width:25%;
+}
+.right-blocks{
+    margin-top: 50%;
+    background-color: #f0ede6;
+    flex-grow:1;
+    font-size: 15pt;
+    padding: 5px;
+    
+}
+
+.right-blocks p{
+    margin-left: 10px;
+}
+
+.right-blocks-zag {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #5d9ebc;
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+
+footer{
+    background-color:#d0e4a7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18pt;
+}
+footer strong{
+    color: #3fbd0d; 
+}
+
+.news>p{
+    display: block;
+    font-size: 16pt;
+    padding-left: 30px;
+    padding-right: 50px;
+    line-height: 1.5;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1049px){
+    .right{
+        margin-top: 10%;
+    }
